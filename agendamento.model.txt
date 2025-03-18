@@ -1,0 +1,7 @@
+export class Agendamento {
+  id: number;
+  dataHora: string;
+  clienteId: number;
+  barbeiroId: number;
+  servicoId: number;
+}

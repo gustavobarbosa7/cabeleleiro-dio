@@ -1,0 +1,3 @@
+public interface AgendamentoRepository extends JpaRepository<Agendamento, Long> {
+    List<Agendamento> findByClienteId(Long clienteId);
+}
